@@ -3,15 +3,15 @@ import React, { useState } from 'react'
 const Greeting = ({ isUserLoggedIn}) =>(
     <div>
         {isUserLoggedIn ? (
-            <h1>Go away</h1>
+            <h1>Welcome</h1>
         ):(
-            <h1>Bye</h1>
+            <h1>login again</h1>
         )
         }
     </div>
 )
 
-const Ter = () => {
+const Ternary = () => {
     const[userLoggedIn, setUserLoggedIn] = useState(false);
   return (
     <div>
@@ -23,4 +23,5 @@ const Ter = () => {
     </div>
   );
 };
-export default Ter
+
+export default Ternary

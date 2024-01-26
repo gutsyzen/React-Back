@@ -1,10 +1,9 @@
 import React from 'react'
-import Myclass from './myclass'
-
+import Counter from './hooks/UseState/Counters'
 export default function App() {
   return (
     <div>
-      <Myclass/>
+      <Counter/>
     </div>
   )
 }
