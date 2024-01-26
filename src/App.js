@@ -1,9 +1,9 @@
 import React from 'react'
-import Counter from './hooks/UseState/Counters'
+import Reduce from './hooks/UseReduce/Reduce'
 export default function App() {
   return (
     <div>
-      <Counter/>
+      <Reduce/>
     </div>
   )
 }
