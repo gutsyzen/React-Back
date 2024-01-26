@@ -1,9 +1,10 @@
-import React from 'react'
-import Reduce from './hooks/UseReduce/Reduce'
+import React from 'react';
+import Callback from './Callback'; // Assuming Callback is in the same directory as App
+
 export default function App() {
   return (
     <div>
-      <Reduce/>
+      <Callback />
     </div>
-  )
+  );
 }
